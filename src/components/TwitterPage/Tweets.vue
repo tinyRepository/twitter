@@ -112,7 +112,7 @@ export default {
 .tweets {
   height: 100vh;
   overflow-y: auto;
-  border: 1px solid $grey-color1;
+  border: 1px solid $blue-color3;
   border-top: 0;
   border-bottom: 0;
   &__title {

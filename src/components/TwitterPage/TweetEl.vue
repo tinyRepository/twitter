@@ -1,6 +1,6 @@
 <template>
   <div class="tweet">
-    <img :src="`${tweet.src}`" class="tweet__avatar" />
+    <img :src="`${tweet.src}`" class="tweet__avatar" :title="tweet.name" />
     <div class="tweet__content">
       <div class="tweet__content-top">
         <div class="tweet__content-data bold-text">{{ tweet.name }}</div>
@@ -78,6 +78,7 @@ export default {
     justify-content: space-between;
   }
   &__content-text {
+    word-break: break-all;
     @include font(15px);
   }
   &__content-data {

@@ -22,6 +22,6 @@ export default {
   margin: auto;
   display: grid;
   grid-column-gap: 30px;
-  grid-template-columns: 1fr 600px 1fr;
+  grid-template-columns: 1fr 600px 1.5fr;
 }
 </style>
