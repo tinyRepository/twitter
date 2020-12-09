@@ -1,0 +1,13 @@
+@mixin font($size, $color: $black-color1, $weight: normal) {
+  color: $color;
+  font-family: 'Roboto', Helvetica, Arial, sans-serif;
+  font-size: $size;
+  font-weight: $weight;
+}
+
+@mixin trimOverflowText($maxWidth) {
+  max-width: $maxWidth;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
